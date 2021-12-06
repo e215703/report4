@@ -2,7 +2,7 @@ import jp.ac.uryukyu.ie.e215703.*;
 
 public class Main {
     public static void main(String[] args){
-        Warrior warrior = new Warrior("勇者", 10, 5);
+        Warrior warrior = new Warrior("戦士", 10, 5);
         Enemy enemy = new Enemy("スライム", 6, 3);
 
         System.out.printf("%s vs. %s\n", warrior.getName(), enemy.getName());
